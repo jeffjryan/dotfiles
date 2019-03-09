@@ -70,6 +70,8 @@ source $ZSH/oh-my-zsh.sh
 # My custom settings:
 source ~/myenv5/bin/activate # virtual env stuff
 cd ~/OneDrive/
+# for adding the tree command to zsh (once added then return to command line and run source .zshrc
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -88,7 +90,7 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR=/usr/local/bin/mate
+export EDITOR=/usr/bin/'vim'
 else
 export EDITOR='nano'
 fi
