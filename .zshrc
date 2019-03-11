@@ -78,6 +78,11 @@ cd ~/OneDrive/
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# editor section
+export EDITOR=/usr/local/bin/nvim
+alias vim="nvim"
+alias vi="nvim"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
