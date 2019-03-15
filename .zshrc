@@ -84,9 +84,7 @@ alias vim="nvim"
 alias vi="nvim"
 
 # editor for visual editor
-#export VISUAL=/usr/local/bin/nvim
-# alias vim="nvim"
-# alias vi="nvim"
+export VISUAL=/usr/local/bin/nvim
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
