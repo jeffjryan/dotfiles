@@ -1,3 +1,4 @@
 autocmd FileType crontab setlocal nobackup nowritebackup
-se mouse+=a
+set mouse+=a
 set number
+set clipboard=unnamed
