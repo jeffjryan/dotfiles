@@ -1,8 +1,10 @@
-[user]
-	name = Jeff Ryan
-	email = me@jeffjryancom
 [filter "lfs"]
-	process = git-lfs filter-process
-	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = jeffjryan
+	email = me@jeffjryan.com
+[core]
+	editor = vim
