@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+RPROMPT="%{$fg[green]%}[%D{%c}]"  #inserts the time/date stamp to the left of your login.
 # Path to your oh-my-zsh installation test 10.
 export ZSH="/Users/jeff/.oh-my-zsh"
 
@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -109,7 +109,6 @@ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
