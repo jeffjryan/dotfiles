@@ -23,8 +23,7 @@
 #   ------------------------------------------------------------
     export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
     export PS2="| => "
-    source myenv5/bin/activate
-    cd OneDrive/34-Technology/AWS
+    echo ~
 
 #   Set Paths
 #   ------------------------------------------------------------
@@ -33,7 +32,7 @@
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
-    export EDITOR=/usr/bin/mate
+    export EDITOR=/usr/bin/vim
 
 #   Set default blocksize for ls, df, du
 #   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
