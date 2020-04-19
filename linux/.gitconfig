@@ -8,3 +8,5 @@
 	email = me@jeffjryan.com
 [core]
 	editor = vim
+[credential]
+	helper = cache
